@@ -1,0 +1,5 @@
+package com.sunil.jdbc.dao;
+
+public class AccountDAO {
+
+}

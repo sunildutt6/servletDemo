@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<form action="add" method= "post">
+	<h2>Adding the numbers</h2>
+		Number1:<input type="text" name="number1" /><br />
+		Number2: <input type="text"
+			name="number2" /><br /> <input type="submit" name="submit" />
+	</form>
+</body>
+</html>
