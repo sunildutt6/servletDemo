@@ -7,3 +7,72 @@ Jun 09, 2022 14:52:11.860 [Child 8892, MediaDecoderStateMachine #2] WARNING: 23b
 Jun 09, 2022 15:04:46.866 
 Jun 09, 2022 15:04:46.866 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
 Jun 09, 2022 15:04:46.866 
+
+Jun 10, 2022 12:20:09.362 NEW SESSION
+Jun 10, 2022 12:20:09.362 [Parent 5204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 12:20:09.675 [Parent 5204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 12:24:12.140 [Parent 5288, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+Jun 10, 2022 12:34:03.23 NEW SESSION
+Jun 10, 2022 12:34:03.23 
+Jun 10, 2022 12:34:03.24 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 12:34:03.24 
+Jun 10, 2022 12:47:58.834 [Parent 23956, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 12:47:58.900 [Parent 23956, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+Jun 10, 2022 13:12:21.630 NEW SESSION
+Jun 10, 2022 13:12:21.630 [Parent 7900, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 13:16:09.639 [Parent 19604, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+Jun 10, 2022 13:16:09.643 [Parent 19604, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 13:36:26.276 [Parent 10728, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 13:36:26.346 [Parent 10728, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 15:07:16.495 [Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 15:07:16.509 
+Jun 10, 2022 15:07:16.509 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 15:07:16.509 
+Jun 10, 2022 15:07:16.515 [Parent 13736, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+Jun 10, 2022 15:12:14.669 
+Jun 10, 2022 15:12:14.670 ###!!! [Parent][PRemoteDecoderManagerParent] Error: RunMessage(msgname=PRemoteDecoderManager::Msg_PRemoteDecoderConstructor) Channel error: cannot send/recv
+Jun 10, 2022 15:12:14.670 
+Jun 10, 2022 15:12:14.670 
+Jun 10, 2022 15:12:14.670 ###!!! [Parent][PRemoteDecoderManagerParent] Error: RunMessage(msgname=PRemoteDecoder::Msg_Construct) Channel error: cannot send/recv
+Jun 10, 2022 15:12:14.670 
+Jun 10, 2022 15:16:41.444 [Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 15:16:41.465 [Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 15:33:26.309 
+Jun 10, 2022 15:33:26.309 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 15:33:26.309 
+Jun 10, 2022 15:33:34.399 [Child 18232, MediaDecoderStateMachine #1] WARNING: 2c902d2d8a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+Jun 10, 2022 15:33:52.551 
+Jun 10, 2022 15:33:52.552 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 15:33:52.552 
+Jun 10, 2022 15:33:52.552 
+Jun 10, 2022 15:33:52.552 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 15:33:52.552 
+Jun 10, 2022 15:33:52.552 
+Jun 10, 2022 15:33:52.552 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 15:33:52.552 
+Jun 10, 2022 15:33:52.553 
+Jun 10, 2022 15:33:52.553 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 15:33:52.553 
+Jun 10, 2022 15:33:52.553 
+Jun 10, 2022 15:33:52.553 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+Jun 10, 2022 15:33:52.553 
+Jun 10, 2022 15:33:52.601 [Parent 13736, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+Jun 10, 2022 15:33:52.635 [Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 15:43:59.542 [Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 10, 2022 15:43:59.639 [Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+Jun 11, 2022 12:44:21.806 NEW SESSION
+Jun 11, 2022 12:44:21.806 [Parent 16220, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 11, 2022 12:45:41.932 [Parent 22636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+Jun 11, 2022 12:54:03.74 [Parent 15712, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 11, 2022 12:54:03.407 
+Jun 11, 2022 12:54:03.407 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+Jun 11, 2022 12:54:03.408 
+Jun 11, 2022 12:54:03.416 [Parent 15712, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 11, 2022 14:28:09.283 [Parent 12384, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+Jun 11, 2022 14:28:09.689 
+Jun 11, 2022 14:28:09.690 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+Jun 11, 2022 14:28:09.690 
+Jun 11, 2022 14:28:09.698 [Parent 12384, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

@@ -6,10 +6,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Enumeration;
 
 import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,24 +19,32 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class CreateUserServlet
  */
-@WebServlet(urlPatterns = "/addServlet", initParams = {
-		@WebInitParam(name = "dbUrl", value = "jdbc:mysql://localhost/mydb"),
-		@WebInitParam(name = "dbUser", value = "root"), @WebInitParam(name = "dbPassword", value = "Rashmikala12") })
+
+//web.xml overrides the webservlet so webservlet to be deleted while web.xml is created.
+@WebServlet(urlPatterns = "/addServlet")
 public class CreateUserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private Connection connection;
 
 	public void init(ServletConfig config) {
+
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");// com.mysql.jdbc.Driver has changed to .cj. remember this
-														// otherwise it will create errors
-			connection = DriverManager.getConnection(config.getInitParameter("dbUrl"),
-					config.getInitParameter("dbUser"), config.getInitParameter("dbPassword"));
+			ServletContext context = config.getServletContext();
+			Enumeration<String> parameterNames = context.getInitParameterNames();
+			while (parameterNames.hasMoreElements()) {
+				String ele = parameterNames.nextElement();
+				System.out.println("Context param name: " + ele);
+				System.out.println("Context param value:" + context.getInitParameter(ele));
+			}
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			connection = DriverManager.getConnection(context.getInitParameter("dbUrl"),
+					context.getInitParameter("dbUser"), context.getInitParameter("dbPassword"));
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
+
 	}
 
 	/**

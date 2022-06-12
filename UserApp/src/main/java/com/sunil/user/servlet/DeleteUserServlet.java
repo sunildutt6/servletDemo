@@ -24,7 +24,7 @@ public class DeleteUserServlet extends HttpServlet {
 
 	/**
 	 * @see HttpServlet#HttpServlet()
-	 */
+	 *///this delete user servlet method is with servlet config where as create user method is created with context api.
 	public void init(ServletConfig config) {
 
 		try {

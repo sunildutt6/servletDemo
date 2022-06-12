@@ -13,31 +13,7 @@
 		<welcome-file>default.htm</welcome-file>
 	</welcome-file-list>
 
-	<servlet>
-		<servlet-name>ReadUserServlet</servlet-name>
-		<servlet-class>com.sunil.user.servlet.ReadUserServlet</servlet-class>
-		
-		<init-param>
-		<param-name>dbUrl</param-name>
-		<param-value>jdbc:mysql://localhost/mydb</param-value>
-		</init-param>
-		
-		<init-param>
-		<param-name>dbUser</param-name>
-		<param-value>root</param-value>
-		</init-param>
-		
-		<init-param>
-		<param-name>dbPassword</param-name>
-		<param-value>Rashmikala12</param-value>
-		</init-param>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>ReadUserServlet</servlet-name>
-		<url-pattern>/readServlet</url-pattern>
-	</servlet-mapping>
-	
-	
+
+
 
 </web-app>
