@@ -76,3 +76,38 @@ Jun 11, 2022 14:28:09.689
 Jun 11, 2022 14:28:09.690 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 Jun 11, 2022 14:28:09.690 
 Jun 11, 2022 14:28:09.698 [Parent 12384, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+Jun 12, 2022 22:51:31.437 NEW SESSION
+Jun 12, 2022 22:51:31.437 [Parent 5676, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+Jun 12, 2022 22:51:31.760 [Parent 5676, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 12, 2022 22:52:46.191 [Parent 11820, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 12, 2022 22:54:04.982 [Parent 10888, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 12, 2022 22:56:14.500 [Parent 18452, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 12, 2022 22:56:49.899 [Parent 7528, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Jun 12, 2022 22:59:25.117 
+Jun 12, 2022 22:59:25.118 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+Jun 12, 2022 22:59:25.118 
+Jun 12, 2022 23:08:10.295 
+Jun 12, 2022 23:08:10.295 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.296 
+Jun 12, 2022 23:08:10.296 
+Jun 12, 2022 23:08:10.296 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.296 
+Jun 12, 2022 23:08:10.296 
+Jun 12, 2022 23:08:10.296 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.296 
+Jun 12, 2022 23:08:10.296 
+Jun 12, 2022 23:08:10.297 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.297 
+Jun 12, 2022 23:08:10.309 
+Jun 12, 2022 23:08:10.309 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.309 
+Jun 12, 2022 23:08:10.309 
+Jun 12, 2022 23:08:10.309 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.309 
+Jun 12, 2022 23:08:10.309 
+Jun 12, 2022 23:08:10.309 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.309 
+Jun 12, 2022 23:08:10.309 
+Jun 12, 2022 23:08:10.309 ###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+Jun 12, 2022 23:08:10.309 

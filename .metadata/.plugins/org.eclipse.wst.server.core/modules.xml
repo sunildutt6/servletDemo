@@ -3,5 +3,6 @@
   <module moduleId="org.eclipse.jst.jee.server:PreparedStatement" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:InterServletCommunication" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:InterServletCommunicationDemo" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:PreInitDemo" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:UserApp" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>
